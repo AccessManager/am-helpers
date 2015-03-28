@@ -1,0 +1,23 @@
+{
+	"name" : "access-manager/am-helpers",
+	"Description" : "This is a dependecy module for Access Manager provides Helper functions",
+	"license" : "MIT",
+	"authors" : [
+			{
+				"name" : "Rahul Makhija",
+				"email" : "rahulmkhj@gmail.com"
+			}
+		],
+	"require" : {
+				  "php"		: ">=5.4"
+		},
+	"autoload" : {
+			"files" : [
+				"src/Helpers.php"
+			]
+		},
+	"config": {
+		"preferred-install": "dist"
+	},
+	"minimum-stability": "stable"
+}
